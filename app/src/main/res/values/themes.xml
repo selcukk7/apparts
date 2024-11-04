@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Apparts" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Tema özelleştirmelerini buraya ekleyebilirsiniz -->
+    </style>
+</resources>

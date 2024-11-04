@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eşrefoğlu Arts"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Eser arayın"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="16dp"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ara"
+        android:layout_below="@id/searchEditText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/myArtworksButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/searchEditText"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="84dp"
+        android:layout_toStartOf="@id/searchButton"
+        android:text="Eserlerim" />
+
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eser Yükle"
+        android:layout_below="@id/myArtworksButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/exportButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Excel'e Aktar"
+        android:layout_below="@id/uploadButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <ListView
+        android:id="@+id/artworkListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/exportButton"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1" />
+
+</RelativeLayout>

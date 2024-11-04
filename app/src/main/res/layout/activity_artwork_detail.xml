@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/artworkImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerCrop" />
+
+        <EditText
+            android:id="@+id/artworkTypeEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Eserin Türü"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/hattatEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hattat"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/tezhibEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tezhib"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/artworkDateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Eserin Tarihi"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/hattaYazanEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hatta yazan"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/purchaseDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alış Tarihi"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/purchaseDateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alış Tarihini Girin"
+            android:padding="16dp"
+            android:layout_marginBottom="48dp" />
+
+        <EditText
+            android:id="@+id/purchasePriceEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alış Fiyatı"
+            android:padding="16dp"
+            android:layout_marginBottom="48dp" />
+
+        <EditText
+            android:id="@+id/purchaseChannelEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alış Kanalı"
+            android:padding="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kaydet"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+            android:minHeight="48dp"
+            android:minWidth="48dp" />
+    </LinearLayout>
+</ScrollView>

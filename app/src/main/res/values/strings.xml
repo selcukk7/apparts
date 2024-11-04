@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">apparts</string>
+    <string name="artwork_image_description">Sanat eseri resmi</string>
+    <string name="artwork_image">Eser Resmi</string>
+    <string name="todo">TODO</string>
+
+</resources>

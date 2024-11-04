@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/artworkImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/uploadImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fotoğraf Yükle" />
+
+    <EditText
+        android:id="@+id/typeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Eserin Türü" />
+
+    <EditText
+        android:id="@+id/artistEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hattat" />
+
+    <EditText
+        android:id="@+id/dateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Eserin Tarihi" />
+
+    <EditText
+        android:id="@+id/priceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alış Fiyatı" />
+
+    <EditText
+        android:id="@+id/channelEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alış Kanalı" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eseri Kaydet" />
+</LinearLayout>
